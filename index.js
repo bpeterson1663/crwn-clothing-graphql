@@ -53,7 +53,7 @@ const server = new GraphQLServer({
 server.start(
   {
     cors: {
-      origin: ['http://localhost:3000']
+      origin: ['https://bpeterson1663-crown-clothing.herokuapp.com/']
     }
   },
   () => console.log('Server is running on http://localhost:4000')
